@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estetic&PMU Klaudia Dutkiewicz</title>
 
-  <!-- Czcionki nagłówka i Open Sans -->
+  <!-- Czcionka nagłówka -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
   <style>
@@ -18,7 +18,8 @@
     }
 
     header {
-      background-color: rgba(255, 255, 255, 0.95);
+      background-color: #000;  /* Czarny kolor tła nagłówka */
+      color: #fff;  /* Biały kolor tekstu */
       text-align: center;
       padding: 40px 20px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -26,11 +27,16 @@
     }
 
     header h1 {
-      font-family: 'Open Sans', sans-serif; /* Zmieniamy czcionkę na Open Sans */
+      font-family: 'Open Sans', sans-serif;  /* Czcionka Open Sans */
       font-size: 3rem;
-      color: #000;
+      color: #fff;  /* Biały kolor tekstu */
       margin-bottom: 10px;
       letter-spacing: 1px;
+    }
+
+    header p {
+      color: #fff;  /* Biały kolor tekstu dla podtytułu */
+      font-size: 1.2rem;
     }
 
     nav {
@@ -100,7 +106,8 @@
       display: block;
       margin: 20px auto;
       border-radius: 20px;
-      max-width: 300px;
+      width: 100%;
+      max-width: 300px;  /* Obrazek nie będzie większy niż 300px */
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
       transition: transform 0.4s;
     }
@@ -148,7 +155,7 @@
 
   <section id="o-mnie">
     <h2>O mnie</h2>
-    <img src="BackgroundEraser_20250302_163154391.png" alt="Klaudia Dutkiewicz" class="profile-pic">
+    <img src="https://www.dropbox.com/s/abc123def4567/example-image.png?raw=1" alt="Klaudia Dutkiewicz" class="profile-pic">
     <p>Klaudia Dutkiewicz – właścicielka salonu Estetic&PMU kosmetologii estetycznej i makijażu permanentnego. Absolwentka Wyższej Szkoły Medycznej z ponad 8-letnim doświadczeniem jako kosmetolog.</p>
   </section>
 
